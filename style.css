@@ -18,8 +18,8 @@ h2, h3 {
 #titulo {
     text-align: center;
     background-image: linear-gradient(to top, darkgreen , green 18%);
-    height: 149px;
-    padding: 8px;
+    height: 182px;
+    padding: 20px;
     color: white;
     
 }
@@ -97,7 +97,7 @@ footer a:hover {
     color: white;
 }
 #titulo > p {
-    font-size: 16px;
+    font-size: 17px;
 }
 #img-pq {
     max-width: 400px;
