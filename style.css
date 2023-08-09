@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fonte';
+    src: url('idroid.otf') format('opentype');
+}
+h1 {
+    font-family: 'fonte', Helvetica, sans-serif;
+
+}
+h2, h3 {
+    font-family: 'fonte', Helvetica, sans-serif;
+    background-image: linear-gradient(to right, lightgreen 10%, transparent);
+}
+#titulo h1 {
+    text-shadow: 2px 1px 1px black;
+
+}
+#titulo {
+    text-align: center;
+    background-image: linear-gradient(to top, darkgreen , green 18%);
+    height: 149px;
+    padding: 8px;
+    color: white;
+    
+}
+#titulo > #links {
+    text-align: left;
+}
+#links {
+    background-color: darkgreen;
+    padding-bottom: 4px;
+}
+#links > a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bolder;
+
+}
+#links > a:hover {
+    color: darkgreen;
+    background-color: lightgreen;
+    border-radius: 4px;
+    transition-duration: .5s;
+}
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+}
+#titulo > p {
+    margin-bottom: 29px;
+    font-size: 13px;
+}
+.subtitulo {
+    padding-left: 8px;
+    color: darkgreen;
+}
+.paragrafos {
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-indent: 25px;
+    line-height: 2em;
+}
+
+#corpo {
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+}
+#corpo-extra {
+    background-color: lightgreen;
+    padding: 11px;
+    margin: 15px;
+    border-radius: 15px;
+}
+footer {
+    text-align: center;
+    background-color: darkgreen;
+    font-weight: bolder;
+    margin-top: 0px;
+    padding: 2px;
+}
+#corpo img {
+    width: 100%;
+}
+footer a {
+    color: black;
+    font-weight: bolder;
+}
+footer a:hover {
+    color: white;
+}
+#titulo > p {
+    font-size: 16px;
+}
+#img-pq {
+    max-width: 400px;
+    margin: auto;
+}
+#corpo-extra ul {
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\2714\00A0';
+}
+.youtube {
+    background-color: darkgreen;
+    margin: 0px -10px 0px -10px;
+    padding: 5px;
+    position: relative;
+    padding-bottom: 56%;
+}
+.youtube > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
