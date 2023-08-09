@@ -18,18 +18,20 @@ h2, h3 {
 #titulo {
     text-align: center;
     background-image: linear-gradient(to top, darkgreen , green 18%);
-    height: 182px;
+    height: 161px;
     padding: 20px;
     color: white;
     
 }
 #titulo > #links {
     text-align: left;
+
 }
 #links {
     background-color: darkgreen;
     padding-bottom: 4px;
     padding-top: 10px;
+    
 }
 #links > a {
     margin-right: 15px;
