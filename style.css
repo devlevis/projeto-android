@@ -29,6 +29,7 @@ h2, h3 {
 #links {
     background-color: darkgreen;
     padding-bottom: 4px;
+    padding-top: 10px;
 }
 #links > a {
     margin-right: 15px;
